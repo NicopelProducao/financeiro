@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import openpyxl
 
-
+st.set_page_config(layout="wide",
+    page_title="CONTROLADORIA NICOPEL",
+    page_icon="💰",
+)
 
 
 page_bg_img = """
